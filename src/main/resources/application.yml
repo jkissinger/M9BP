@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - production
+  application:
+    name: RoutineHelper-Desktop
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+sound:
+  announce:
+    seconds:
+      beforeDue: 300
+      afterDue: 3600
+  quietTime.start: '11:00:00'
+  quietTime.end: '12:00:00'
